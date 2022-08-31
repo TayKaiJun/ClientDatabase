@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DetailsPage.DetailsController">
+   <children>
+      <ComboBox fx:id="selectTable" layoutX="130.0" layoutY="14.0" prefHeight="39.0" prefWidth="387.0" />
+      <TableView fx:id="dataTable" layoutX="14.0" layoutY="115.0" prefHeight="578.0" prefWidth="984.0" />
+      <Label layoutX="33.0" layoutY="20.0" text="Open table" />
+      <TextField fx:id="searchbar" layoutX="130.0" layoutY="67.0" prefHeight="39.0" prefWidth="690.0" />
+      <RadioButton fx:id="searchall" layoutX="542.0" layoutY="20.0" mnemonicParsing="false" text="All Fields" />
+      <RadioButton fx:id="searchspecified" layoutX="665.0" layoutY="20.0" mnemonicParsing="false" text="Specified Fields" />
+      <Label layoutX="38.0" layoutY="73.0" text="Search for" />
+      <Button fx:id="logout" layoutX="891.0" layoutY="67.0" mnemonicParsing="false" text="Log out" />
+      <Label fx:id="help" layoutX="895.0" layoutY="21.0" text="Need help?" textFill="#0400ff">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Label>
+      <Circle fx:id="addnew" fill="#e1e1e1" layoutX="506.0" layoutY="722.0" radius="19.0" stroke="#b9b9b9" strokeType="INSIDE" />
+      <Line endX="80.0" layoutX="438.0" layoutY="722.0" startX="57.0" stroke="#797979" strokeWidth="3.0" />
+      <Line endY="23.0" layoutX="506.0" layoutY="711.0" stroke="#797979" strokeWidth="3.0" />
+   </children>
+</AnchorPane>

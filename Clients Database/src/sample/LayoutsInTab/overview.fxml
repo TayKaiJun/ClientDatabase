@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OverviewPage.OverviewController">
+   <center>
+      <AnchorPane prefHeight="647.0" prefWidth="1024.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="clientsTable" layoutX="14.0" layoutY="12.0" prefHeight="639.0" prefWidth="997.0" />
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <AnchorPane prefHeight="55.0" prefWidth="1024.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="logout" layoutX="921.0" layoutY="8.0" mnemonicParsing="false" text="Log Out" />
+         </children>
+      </AnchorPane>
+   </bottom>
+   <top>
+      <AnchorPane prefHeight="38.0" prefWidth="1024.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="347.0" layoutY="11.0" text="Overview of all the clients in the database" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

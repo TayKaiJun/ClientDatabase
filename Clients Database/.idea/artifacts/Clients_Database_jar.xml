@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Clients Database:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Clients_Database_jar</output-path>
+    <root id="archive" name="Clients Database.jar">
+      <element id="module-output" name="Clients Database" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../ConnectorJ/mysql-connector-java-5.1.41/mysql-connector-java-5.1.41-bin.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../ConnectorJ/mysql-connector-java-5.1.41/mysql-connector-java-5.1.41-bin.jar" />
+    </root>
+  </artifact>
+</component>

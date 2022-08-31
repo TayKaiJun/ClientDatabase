@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Login">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="768.0" prefWidth="1024.0">
+         <children>
+            <TextField fx:id="user" layoutX="450.0" layoutY="388.0" />
+            <Label layoutX="225.0" layoutY="251.0" text="Welcome to Insurance Accounts Tracker!">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="365.0" layoutY="394.0" text="Username" />
+            <Label layoutX="368.0" layoutY="443.0" text="Password" />
+            <ButtonBar layoutX="405.0" layoutY="495.0" prefHeight="40.0" prefWidth="200.0">
+              <buttons>
+                <Button fx:id="loginbutton" minWidth="44.0" mnemonicParsing="false" prefHeight="39.0" text="Log In" />
+                  <Button fx:id="cancelbutton" mnemonicParsing="false" prefHeight="10.0" prefWidth="170.0" text="Cancel" />
+              </buttons>
+            </ButtonBar>
+            <Label layoutX="413.0" layoutY="296.0" text="To begin, please log in:">
+               <font>
+                  <Font name="System Italic" size="20.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="password" layoutX="450.0" layoutY="437.0" />
+            <Label layoutX="369.0" layoutY="344.0" text="Database" />
+            <TextField fx:id="database" layoutX="450.0" layoutY="338.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

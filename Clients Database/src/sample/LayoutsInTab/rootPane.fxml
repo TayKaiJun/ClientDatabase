@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane fx:id="tabPane" prefHeight="800.0" prefWidth="1024.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TabPaneController">
+  <tabs>
+    <Tab fx:id="overviewtab" text="Overview">
+        <content>
+            <fx:include fx:id="overviewPane" source="overview.fxml" />
+        </content>
+    </Tab>
+    <Tab fx:id="detailstab" text="Details">
+      <content>
+        <fx:include fx:id="detailsPane" source="details.fxml" />
+      </content>
+    </Tab>
+    <Tab fx:id="accountstab" text="Accounts">
+      <content>
+        <fx:include fx:id="accounts" source="accounts.fxml" />
+      </content>
+    </Tab>
+    <!--
+      <Tab fx:id="contactcardtab" text="Contact Cards">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </Tab>
+      -->
+      <Tab fx:id="abouttab" text="About">
+        <content>
+          <fx:include source="about.fxml" />
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>

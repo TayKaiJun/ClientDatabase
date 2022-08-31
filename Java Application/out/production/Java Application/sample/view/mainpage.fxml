@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.MainpageController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="768.0" prefWidth="1024.0">
+         <children>
+            <Label layoutX="286.0" layoutY="49.0" text="Insurance Accounts Data Loader">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="file" layoutX="107.0" layoutY="195.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="131.0" text="Select Data Source" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="upload" disable="true" layoutX="107.0" layoutY="348.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="131.0" text="Bulk Load Data" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="export" layoutX="107.0" layoutY="506.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="131.0" text="Export Data" />
+            <Button fx:id="logout" layoutX="473.0" layoutY="666.0" mnemonicParsing="false" text="Log Out" />
+            <Label layoutX="260.0" layoutY="195.0" text="Choosees the folder which contains all the data needed for the database" />
+            <Label layoutX="260.0" layoutY="231.0" text="Current folder selected:" />
+            <Label fx:id="filepath" alignment="TOP_LEFT" layoutX="452.0" layoutY="231.0" prefHeight="63.0" prefWidth="496.0" text="No Directory selected" textFill="#004fff" underline="true" wrapText="true">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="260.0" layoutY="357.0" text="Loads all the data in the selected folder into the database" />
+            <Label layoutX="260.0" layoutY="510.0" text="Generates a text file containing all the data in the database" />
+            <Label layoutX="260.0" layoutY="543.0" text="Output location:" />
+            <Label fx:id="outputfilepath" alignment="TOP_LEFT" layoutX="396.0" layoutY="543.0" prefHeight="63.0" prefWidth="554.0" text="No Output" textFill="#004fff" underline="true" wrapText="true">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="260.0" layoutY="384.0" text="Data upload status:" />
+            <Label fx:id="uploadstatus" alignment="TOP_LEFT" layoutX="421.0" layoutY="384.0" prefHeight="27.0" prefWidth="197.0" text="No Data uploaded" textFill="#004fff" underline="true" wrapText="true">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

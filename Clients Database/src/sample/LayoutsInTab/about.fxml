@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="750.0" prefWidth="1024.0">
+         <children>
+            <Label text="ABOUT" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="This project is for the tracking of insurance clients and the accounting involved." textAlignment="CENTER" wrapText="true">
+               <VBox.margin>
+                  <Insets bottom="15.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar augue lacinia nunc volutpat mattis. Cras eget lacinia nisi. Quisque vitae vulputate augue. Nullam dapibus eget odio sit amet varius. Sed sit amet luctus dolor, id sollicitudin nisl. Nulla a auctor nisi. Nullam auctor pretium dolor, nec luctus massa ullamcorper eu. Ut quis enim rhoncus, dictum risus vitae, mattis erat." textAlignment="CENTER" wrapText="true">
+               <VBox.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Etiam aliquam nibh consectetur dui aliquam, id auctor mauris aliquam. Vestibulum vestibulum at quam consectetur varius. Sed velit nisi, lobortis sed euismod a, hendrerit vel neque. Morbi faucibus eros luctus augue egestas varius. Proin mattis massa non lorem mollis, quis maximus turpis scelerisque. Aliquam erat volutpat. In euismod metus eu lectus condimentum pharetra. Etiam ullamcorper metus metus, sed semper tortor tempus in. Nunc in venenatis sapien. Vivamus rutrum vel urna ut varius. Sed blandit lectus justo, nec luctus turpis vulputate at. Morbi semper augue a libero mattis dictum. Vestibulum at eros non risus dignissim tincidunt." textAlignment="CENTER" wrapText="true">
+               <VBox.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Java Application:jar">
+    <output-path>$PROJECT_DIR$</output-path>
+    <root id="archive" name="Java Application.jar">
+      <element id="module-output" name="Java Application" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../ConnectorJ/mysql-connector-java-5.1.41/mysql-connector-java-5.1.41-bin.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../ConnectorJ/mysql-connector-java-5.1.41/mysql-connector-java-5.1.41-bin.jar" />
+    </root>
+  </artifact>
+</component>
