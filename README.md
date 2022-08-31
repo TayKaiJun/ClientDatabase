@@ -25,11 +25,11 @@ Hence, the goal of this database is to collate all this information in one centr
 | DML Data Population Script.sql | load data in csv files in "Test Data" folder into the database |
 | DML script.sql | some queries written to simulate potential use of this data management application |
 
-## Web Application Folder
+### Web Application Folder
 This folder contains the HTML, php, css, and js files to run the web application.
 
-## Java Application Folder
+### Java Application Folder
 Code to generate a standalone Java exe program that can access the SQL database.
 
-## Data Models and Schematics Folder
+### Data Models and Schematics Folder
 Drawings of the database ER model and Relation schema.
